@@ -1,0 +1,9 @@
+import { Header } from '../Header/Header'
+export const MainLayout = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <div>{children}</div>
+    </>
+  )
+}

@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #f5a61c;
+  height: 38px;
+  width: 124px;
+  font-size: 38px;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.container {
+  max-width: 1440px;
+  margin: 30px auto 15px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding-top: 37px; */
+}

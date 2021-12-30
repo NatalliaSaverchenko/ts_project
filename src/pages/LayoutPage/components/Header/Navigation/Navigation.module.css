@@ -1,0 +1,9 @@
+ul li {
+  list-style-type: none;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 508px;
+}
