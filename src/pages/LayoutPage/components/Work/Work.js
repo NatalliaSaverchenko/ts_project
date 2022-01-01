@@ -1,11 +1,16 @@
 import { WorkList } from './WorkList/WorkList'
 import { Button } from '../Button/Button'
 
+import styles from './Work.module.css'
+
 export const Work = () => {
   return (
-    <>
+    <div className={styles.workListContainer}>
+      <h2 className={styles.workTitle}>How it works</h2>
       <WorkList />
-      <Button text={`Learn More`} />
-    </>
+      <div className={styles.primaryBtn}>
+        <Button text={`Learn More`} />
+      </div>
+    </div>
   )
 }

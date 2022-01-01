@@ -1,0 +1,11 @@
+.cardList {
+  width: 50vw;
+}
+.textCardLine::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #f7a500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

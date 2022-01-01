@@ -1,8 +1,8 @@
-import './Button.module.css'
+import styles from './Button.module.css'
 export const Button = ({ text }) => {
   return (
     <>
-      <button>
+      <button className={styles.btn}>
         <span>{text}</span>
       </button>
     </>

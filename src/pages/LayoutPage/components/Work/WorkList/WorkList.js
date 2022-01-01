@@ -2,6 +2,9 @@ import parrot from '../images/parrot.png'
 import dog from '../images/dog.png'
 import rabbit from '../images/rabbit.png'
 import { WorkCard } from '../WorkCard/WorkCard'
+
+import styles from './WorkList.module.css'
+
 export const WorkList = () => {
   const workList = [
     {
@@ -24,8 +27,8 @@ export const WorkList = () => {
     },
   ]
   return (
-    <>
-      <ul>
+    <div>
+      <ul className={styles.workList}>
         {workList &&
           workList.map(({ image, title, description }, index) => {
             return (
@@ -39,6 +42,6 @@ export const WorkList = () => {
             )
           })}
       </ul>
-    </>
+    </div>
   )
 }

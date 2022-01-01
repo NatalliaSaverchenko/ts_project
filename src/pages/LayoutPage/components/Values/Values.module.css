@@ -1,0 +1,24 @@
+.values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 150px 45px 150px;
+}
+.valuesPhotoContent {
+  margin-right: 10vw;
+  width: 40vw;
+}
+.valuesTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 53px;
+  height: 212px;
+  color: #000000;
+}
+.valuesImage {
+  width: 280px;
+  height: 377px;
+}

@@ -13,7 +13,9 @@ export const Main = () => {
         </span>
         because your best friend deserves only the best in pet care.
       </h3>
-      <Button text={`Try Mixlab`} />
+      <div className={styles.primaryBtn}>
+        <Button text={`Try Mixlab`} />
+      </div>
       <div className={styles.imgContainer}>
         <img src={skate} alt="rabbit" />
       </div>

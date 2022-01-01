@@ -1,10 +1,10 @@
-button {
+.btn {
   background: #6f1eaa;
   border-radius: 19px;
   width: 150px;
   height: 38px;
 }
-button span {
+.btn span {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;

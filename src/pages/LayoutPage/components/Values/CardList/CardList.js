@@ -1,4 +1,5 @@
 import { TextCard } from '../TextCard/TextCard'
+import styles from './CardList.module.css'
 
 export const CardList = () => {
   const cardList = [
@@ -15,17 +16,17 @@ export const CardList = () => {
     {
       title: 'Support, 7 days a week',
       description:
-        'You’re not alone. Text, call, or email us 7 days a week—we’ll answer and do our best to sprinkle in a bit of sunshine. ☀️',
+        'You’re not alone. Text, call, or email us 7 days a week - we’ll answer and do our best to sprinkle in a bit of sunshine. ☀️',
     },
   ]
 
   return (
     <>
-      <ul>
+      <ul className={styles.cardList}>
         {cardList &&
           cardList.map((card, index) => {
             return (
-              <li key={index}>
+              <li className={styles.textCardLine} key={index}>
                 <TextCard
                   textCardTitle={card.title}
                   textCardDescription={card.description}

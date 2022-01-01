@@ -1,0 +1,36 @@
+.workCard {
+  position: relative;
+  margin-bottom: 31px;
+}
+.imageWorkCardContainer::after {
+  display: block;
+  content: '';
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  background: #fff7c2;
+  position: absolute;
+  height: 192px;
+  left: 23.12%;
+  right: 23.4%;
+  top: 0px;
+  z-index: -1;
+}
+.workCardTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #6f1eaa;
+}
+.workCardDescription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}

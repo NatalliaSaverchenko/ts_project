@@ -1,0 +1,36 @@
+.veterinaiansContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 150px;
+}
+.veterinaiansTextCardPreTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: #f7a500;
+  margin-bottom: 8px;
+}
+.veterinaiansTextCardTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 53px;
+  color: #000000;
+  margin-bottom: 43px;
+}
+.veterinaiansTextCardDescription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 26px;
+}
