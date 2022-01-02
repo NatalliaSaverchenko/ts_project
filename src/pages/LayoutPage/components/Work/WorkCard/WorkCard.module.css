@@ -1,6 +1,7 @@
 .workCard {
   position: relative;
   margin-bottom: 31px;
+  z-index: 1;
 }
 .imageWorkCardContainer::after {
   display: block;

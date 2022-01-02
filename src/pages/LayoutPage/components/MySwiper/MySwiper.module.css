@@ -1,0 +1,25 @@
+.slideContainer {
+  padding: 58px 80px 162px 80px;
+}
+.slideContainerTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}
+.slideContainerSubTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  margin: 24px 0 27px 0;
+}
+.slideContainerSubTitle span {
+  color: #6f1eaa;
+}

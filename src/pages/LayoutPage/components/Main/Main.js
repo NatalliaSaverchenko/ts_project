@@ -8,9 +8,8 @@ export const Main = () => {
       <h1 className={styles.title}>The pet pharmacy humans are jealous of.</h1>
       <h3 className={styles.subtitle}>
         5 stars on
-        <span className={(styles.subtitle, styles.color)}>
-          {` Yelp, Google and Facebook `}
-        </span>
+        <span className={(styles.subtitle, styles.color)}> Yelp, Google </span>
+        and <span className={(styles.subtitle, styles.color)}> Facebook </span>
         because your best friend deserves only the best in pet care.
       </h3>
       <div className={styles.primaryBtn}>
