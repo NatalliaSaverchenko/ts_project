@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 .cardSlideInfoText {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -19,7 +19,7 @@
   margin-left: 40px;
 }
 .cardSlideInfoSignature {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

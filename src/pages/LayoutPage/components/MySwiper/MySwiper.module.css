@@ -2,7 +2,7 @@
   padding: 58px 80px 162px 80px;
 }
 .slideContainerTitle {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 43px;
@@ -11,7 +11,7 @@
   color: #000000;
 }
 .slideContainerSubTitle {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

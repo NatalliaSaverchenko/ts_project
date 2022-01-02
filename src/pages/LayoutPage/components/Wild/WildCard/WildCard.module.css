@@ -5,7 +5,7 @@
   margin-bottom: 47px;
 }
 .wildCardText span {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -14,7 +14,7 @@
   margin-bottom: 15px;
 }
 .wildCardTextTitle {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -23,7 +23,7 @@
   margin-bottom: 15px;
 }
 .wildCardTextDescription {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
@@ -32,7 +32,7 @@
   margin-bottom: 27px;
 }
 .wildCardText a {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

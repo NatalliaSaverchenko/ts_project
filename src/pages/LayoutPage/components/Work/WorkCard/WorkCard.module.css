@@ -18,7 +18,7 @@
   z-index: -1;
 }
 .workCardTitle {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -27,7 +27,7 @@
   color: #6f1eaa;
 }
 .workCardDescription {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
