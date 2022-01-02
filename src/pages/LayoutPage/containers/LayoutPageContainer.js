@@ -4,7 +4,7 @@ import { Values } from '../components/Values/Values'
 import { Work } from '../components/Work/Work'
 import { Veterinaians } from '../components/Veterinarians/Veterinarians'
 import { MySwiper } from '../components/MySwiper/MySwiper'
-import { WildList } from '../components/Wild/WildList/WildList'
+import { Wild } from '../components/Wild/Wild'
 
 export const LayoutPageContainer = () => {
   return (
@@ -15,7 +15,7 @@ export const LayoutPageContainer = () => {
       <Work />
       <Veterinaians />
       <MySwiper />
-      <WildList />
+      <Wild />
     </div>
   )
 }

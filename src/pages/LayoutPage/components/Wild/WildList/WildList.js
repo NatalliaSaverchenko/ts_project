@@ -2,6 +2,9 @@ import { WildCard } from '../WildCard/WildCard'
 
 import blackDog from '../images/black_dog.png'
 import picture from '../images/picture.png'
+
+import styles from './WildList.module.css'
+
 export const WildList = () => {
   const wildList = [
     {
@@ -21,7 +24,7 @@ export const WildList = () => {
     },
   ]
   return (
-    <>
+    <div className={styles.wildList}>
       {wildList &&
         wildList.map(({ image, data, title, description, link }) => (
           <WildCard
@@ -33,6 +36,6 @@ export const WildList = () => {
             link={link}
           />
         ))}
-    </>
+    </div>
   )
 }

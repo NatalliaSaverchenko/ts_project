@@ -1,0 +1,30 @@
+.wildContainer {
+  background: #faf9f6;
+  padding-bottom: 57px;
+}
+.wildTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+  padding-top: 57px;
+  margin-bottom: 30px;
+}
+.wildDescription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  width: 400px;
+  margin: 0 auto 76px auto;
+}
+.primaryBtn {
+  display: flex;
+  justify-content: center;
+}

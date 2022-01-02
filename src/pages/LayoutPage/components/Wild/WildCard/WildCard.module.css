@@ -1,0 +1,42 @@
+.wildCardText {
+  padding: 35px;
+  border: 1px solid #e8dcf8;
+  border-top: hidden;
+  margin-bottom: 47px;
+}
+.wildCardText span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #f7a500;
+  margin-bottom: 15px;
+}
+.wildCardTextTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.wildCardTextDescription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.wildCardText a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6f1eaa;
+  margin-bottom: 35px;
+}
