@@ -5,18 +5,20 @@ import styles from './Values.module.css'
 
 export const Values = () => {
   return (
-    <div className={styles.values}>
-      <div className={styles.valuesPhotoContent}>
-        <h2 className={styles.valuesTitle}>
-          We couldn’t find a pharmacy experience worthy of our best buds - so we
-          created one.
-        </h2>
-        <div className={styles.valuesImage}>
-          <img src={dog} alt="dog" />
+    <section className={styles.value}>
+      <div className={styles.values}>
+        <div className={styles.valuesPhotoContent}>
+          <h2 className={styles.valuesTitle}>
+            We couldn’t find a pharmacy experience worthy of our best buds - so
+            we created one.
+          </h2>
+          <div className={styles.valuesImage}>
+            <img src={dog} alt="dog" />
+          </div>
         </div>
-      </div>
 
-      <CardList />
-    </div>
+        <CardList />
+      </div>
+    </section>
   )
 }
