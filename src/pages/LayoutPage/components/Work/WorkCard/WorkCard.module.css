@@ -1,22 +1,23 @@
 .workCard {
-  position: relative;
-  margin-bottom: 31px;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
-.imageWorkCardContainer::after {
-  display: block;
-  content: '';
+.imageWorkCardContainer {
   width: 192px;
   height: 192px;
   border-radius: 50%;
   background: #fff7c2;
-  position: absolute;
-  height: 192px;
-  left: 23.12%;
-  right: 23.4%;
-  top: 0px;
-  z-index: -1;
+  margin-top: 65px;
+  margin-bottom: 31px;
 }
+.imageWorkCardContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .workCardTitle {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -25,6 +26,7 @@
   line-height: 32px;
   text-align: center;
   color: #6f1eaa;
+  margin-bottom: 11px;
 }
 .workCardDescription {
   font-family: 'Roboto', sans-serif;
