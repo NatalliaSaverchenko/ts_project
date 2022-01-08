@@ -1,10 +1,28 @@
 .container {
   max-width: 1440px;
-  margin: 30px 110px 15px 150px;
-}
-.header {
+  padding: 0px 110px 0px 110px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.header {
+  height: 94px;
   /* padding-top: 37px; */
+}
+.btn_main {
+  padding: 40px 0 16px 0;
+}
+.btn_usual button {
+  background: white;
+  border: none;
+}
+.btn_usual button span {
+  color: #6f1eaa;
+  font-style: normal;
+  font-weight: normal;
+}
+.pannel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

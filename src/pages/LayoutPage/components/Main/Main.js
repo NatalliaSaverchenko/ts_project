@@ -1,5 +1,5 @@
 import { Button } from '../Button/Button'
-import skate from './images/skate.png'
+import rabbit_skate from './images/rabbit_skate.svg'
 import styles from './Main.module.css'
 
 export const Main = () => {
@@ -23,7 +23,7 @@ export const Main = () => {
           <Button text={`Try Mixlab`} />
         </div>
         <div className={styles.imgContainer}>
-          <img src={skate} alt="rabbit" />
+          <img src={rabbit_skate} alt="rabbit" />
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ export const Navigation = () => {
       <ul className={styles.navigation}>
         {navigationList &&
           navigationList.map((navItem, index) => (
-            <li key={index}>
+            <li key={index} className={styles.navigationItem}>
               <NavigationItem navItemTitle={navItem} />
             </li>
           ))}

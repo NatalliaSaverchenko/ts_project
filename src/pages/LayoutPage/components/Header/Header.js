@@ -6,12 +6,19 @@ import styles from './Header.module.css'
 
 export const Header = () => {
   return (
-    <div className={styles.container}>
-      <header className={styles.header}>
+    <header className={styles.header}>
+      <div className={styles.container}>
         <Navigation />
         <Logo />
-        <Button text={`Try mixlab`} />
-      </header>
-    </div>
+        <div className={styles.pannel}>
+          <div className={styles.btn_main + ' ' + styles.btn_usual}>
+            <Button text={`Veterinarian login`} />
+          </div>
+          <div className={styles.btn_main}>
+            <Button text={`Try mixlab`} />
+          </div>
+        </div>
+      </div>
+    </header>
   )
 }

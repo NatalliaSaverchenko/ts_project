@@ -3,6 +3,7 @@
   border-radius: 19px;
   width: 150px;
   height: 38px;
+  cursor: pointer;
 }
 .btn span {
   font-family: 'Roboto', sans-serif;
