@@ -6,12 +6,16 @@ export const Header = () => {
       style={{
         display: 'flex',
         justifyContent: 'space-around',
-        width: '300px',
+        minWidth: '500px',
         marginBottom: '40px',
       }}
     >
       {Object.entries(ROUTE_NAMES).map(([title, pathTo]) => {
-        return <NavLink to={pathTo}>{title}</NavLink>
+        return (
+          <NavLink to={pathTo} key={title}>
+            {title}
+          </NavLink>
+        )
       })}
     </div>
   )
