@@ -3,7 +3,7 @@ import { ROUTE_NAMES } from './routeNames'
 import { LayoutPageContainer } from '../pages/LayoutPage/containers/LayoutPageContainer'
 // import { CounterContainer } from '../pages/Counter/containers/CounterContainer'
 import { CountersList } from '../pages/Counter/components/CounterList/CounterList'
-import { CounterAdrianExplanationContainer } from '../pages/CounterAdrianExplanation/containers/CounterAdrianExplanationContainer'
+import { CounterLayoutContainer } from '../pages/CounterExplanation/containers/CounterLayoutContainer'
 
 export const RouterView = () => {
   return (
@@ -17,7 +17,7 @@ export const RouterView = () => {
         <Route path={ROUTE_NAMES.COUNTER} element={<CountersList />}></Route>
         <Route
           path={ROUTE_NAMES.COUNTEREXPLANATION}
-          element={<CounterAdrianExplanationContainer />}
+          element={<CounterLayoutContainer />}
         ></Route>
       </Routes>
     </>
