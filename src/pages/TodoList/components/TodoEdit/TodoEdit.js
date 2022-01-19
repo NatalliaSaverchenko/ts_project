@@ -8,7 +8,6 @@ export const TodoEdit = ({
   setIsEditing,
 }) => {
   const update = () => {
-    console.log(editCurrentTodo)
     updateTodoInput(id, editCurrentTodo)
     setIsEditing(false)
   }

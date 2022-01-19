@@ -22,18 +22,16 @@ export const todoListReducer = handleActions(
       copyTodos.splice(todoIndex, 1)
       return { ...state, todos: copyTodos }
     },
-    [actions.EDIT_TODO]: (state, action) => {
-      console.log(action)
+    [actions.EDIT_TODO]: (state, { payload }) => {
       const copyTodos = [...state.todos]
-      const { id, nameTodo } = action.payload
-      copyTodos.map((todo) => {
+      const { id, nameTodo } = payload
+      const updatedTodos = copyTodos.map((todo) => {
         if (todo.id === id) {
           return { ...todo, nameTodo: nameTodo }
         }
         return todo
       })
-
-      return { ...state, todos: copyTodos }
+      return { ...state, todos: updatedTodos }
     },
   },
   defaultState
