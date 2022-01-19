@@ -4,6 +4,7 @@ import { LayoutPageContainer } from '../pages/LayoutPage/containers/LayoutPageCo
 // import { CounterContainer } from '../pages/Counter/containers/CounterContainer'
 import { CountersList } from '../pages/Counter/components/CounterList/CounterList'
 import { CounterLayoutContainer } from '../pages/CounterExplanation/containers/CounterLayoutContainer'
+import { TodoListLayoutContainer } from '../pages/TodoList/containers/TodoListLayoutContainer'
 
 export const RouterView = () => {
   return (
@@ -18,6 +19,10 @@ export const RouterView = () => {
         <Route
           path={ROUTE_NAMES.COUNTEREXPLANATION}
           element={<CounterLayoutContainer />}
+        ></Route>
+        <Route
+          path={ROUTE_NAMES.TODOLIST}
+          element={<TodoListLayoutContainer />}
         ></Route>
       </Routes>
     </>
