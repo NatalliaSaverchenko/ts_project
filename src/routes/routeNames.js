@@ -4,4 +4,5 @@ export const ROUTE_NAMES = {
   COUNTER: '/counter',
   COUNTEREXPLANATION: '/counter-explain',
   TODOLIST: '/todolist',
+  ASYNC: '/async',
 }
