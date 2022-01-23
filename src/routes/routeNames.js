@@ -5,4 +5,5 @@ export const ROUTE_NAMES = {
   COUNTEREXPLANATION: '/counter-explain',
   TODOLIST: '/todolist',
   ASYNC: '/async',
+  FORM: '/form',
 }

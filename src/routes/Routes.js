@@ -6,6 +6,7 @@ import { CountersList } from '../pages/Counter/components/CounterList/CounterLis
 import { CounterLayoutContainer } from '../pages/CounterExplanation/containers/CounterLayoutContainer'
 import { TodoListLayoutContainer } from '../pages/TodoList/containers/TodoListLayoutContainer'
 import { AsyncPage } from '../pages/AsyncPage'
+import { FormContainer } from '../pages/Forms/containers/FormContainer'
 
 export const RouterView = () => {
   return (
@@ -26,6 +27,7 @@ export const RouterView = () => {
           element={<TodoListLayoutContainer />}
         ></Route>
         <Route path={ROUTE_NAMES.ASYNC} element={<AsyncPage />}></Route>
+        <Route path={ROUTE_NAMES.FORM} element={<FormContainer />}></Route>
       </Routes>
     </>
   )
