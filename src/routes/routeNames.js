@@ -6,4 +6,6 @@ export const ROUTE_NAMES = {
   TODOLIST: '/todolist',
   ASYNC: '/async',
   FORM: '/form',
+  POKEMONS: '/pokemons',
+  POKEMONS_DETAIL: '/pokemons/:pokemonName',
 }
