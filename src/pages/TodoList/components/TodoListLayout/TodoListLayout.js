@@ -1,37 +1,50 @@
-import { useSelector } from 'react-redux'
-import { List } from '@mui/material'
-import { TodoInput } from '../TodoInput/TodoInput'
-import { Todo } from '../Todo/Todo'
+import { Fragment } from 'react'
+import Todo from '../Todo/Todo'
+import TodoEditMode from '../TodoEditMode/TodoEditMode'
 
 export const TodoListLayout = ({
+  handleTaskCreate,
   handleChange,
-  inputValue,
-  createTodo,
-  removeTodo,
-  updateTodoInput,
+  formValues,
+  todos,
+  handleEditModeToggle,
+  handleSave,
+  handleRemove,
 }) => {
-  const { todos } = useSelector((state) => state.todoListPage)
-
   return (
-    <>
-      <TodoInput
-        handleChange={handleChange}
-        inputValue={inputValue}
-        createTodo={createTodo}
-      />
+    <div>
+      <form onSubmit={handleTaskCreate}>
+        <input
+          type="text"
+          name="taskText"
+          onChange={handleChange}
+          value={formValues.taskText}
+        />
+        <button type="submit">Create</button>
+      </form>
 
-      <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+      <div>
         {todos &&
-          todos.map(({ id, nameTodo }) => (
-            <Todo
-              key={id}
-              id={id}
-              nameTodo={nameTodo}
-              removeTodo={removeTodo}
-              updateTodoInput={updateTodoInput}
-            />
+          todos.map(({ id, text, isCompleted, isEditMode }) => (
+            <Fragment key={id}>
+              {isEditMode ? (
+                <TodoEditMode
+                  id={id}
+                  text={text}
+                  handleUndo={handleEditModeToggle}
+                  handleSave={handleSave}
+                />
+              ) : (
+                <Todo
+                  id={id}
+                  taskText={text}
+                  handleEdit={handleEditModeToggle}
+                  handleRemove={handleRemove}
+                />
+              )}
+            </Fragment>
           ))}
-      </List>
-    </>
+      </div>
+    </div>
   )
 }
